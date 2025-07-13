@@ -648,3 +648,94 @@ body, html {
     color: #333;
 }
 
+.sobrenosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1.5rem;
+  
+}
+
+.sobrenosotros h1 {
+    font-size: 3rem;
+    color: #0d1b2a;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: 'Fira Mono', monospace;
+    letter-spacing: 1px;
+}
+
+.sobrenosotros p {
+    max-width: 900px;
+    font-size: 1.125rem;
+    color: #2f3e46;
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+    text-align: justify;
+    font-family: 'Fira Mono', monospace;
+}
+
+.sobrenosotros .image-container {
+    width: 100%;
+    max-width: 850px;
+    margin-top: 2rem;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.sobrenosotros .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.sobrenosotros .image-container img:hover {
+    transform: scale(1.02);
+}
+
+
+.nuestroequipo {
+  padding: 2rem;
+  background-color: #ffff;
+  text-align: center;
+}
+
+.nuestroequipo h2 {
+  margin-bottom: 2rem;
+}
+
+.doctor-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.doctor-card {
+  max-width: 300px;
+  margin: 1rem;
+  text-align: center;
+}
+
+.doctor-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 1000px;
+}
+
+.doctor-card h3 {
+  margin-top: 1rem;
+}
+
+.ul-navbar li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.ul-navbar li a:hover {
+  color: #007BFF;
+}
